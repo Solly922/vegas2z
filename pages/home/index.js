@@ -208,9 +208,9 @@ export default function Home() {
     <Layout
       theme={theme}
       seo={{
-        title: 'Lenis – Get smooth or die trying',
+        title: 'Vegas2Z',
         description:
-          'A smooth scroll library fresh out of the darkroom.engineering.',
+          'Create the AI of your dreams with Vegas2Z. A powerful, flexible, and scalable AI platform that lets you build, train, and deploy machine learning models at scale.',
       }}
       className={s.home}
     >
@@ -273,12 +273,18 @@ export default function Home() {
           </Button>
         </div>
       </section>
-      <section className={s.why} data-lenis-scroll-snap-align="start">
+      <section
+        className={s.why}
+        data-lenis-scroll-snap-align="start"
+      >
         <div className="layout-grid">
           <h2 className={cn(s.sticky, 'h2')}>
             <AppearTitle>Why smooth scroll?</AppearTitle>
           </h2>
-          <aside className={s.features} ref={whyRectRef}>
+          <aside
+            className={s.features}
+            ref={whyRectRef}
+          >
             <div className={s.feature}>
               <p className="p">
                 We’ve heard all the reasons to not use smooth scroll. It feels
@@ -326,7 +332,10 @@ export default function Home() {
       </section>
       <section className={s.rethink}>
         <div className={cn('layout-grid', s.pre)}>
-          <div className={s.highlight} data-lenis-scroll-snap-align="start">
+          <div
+            className={s.highlight}
+            data-lenis-scroll-snap-align="start"
+          >
             <Parallax speed={-0.5}>
               <p className="h2">
                 <AppearTitle>Rethinking smooth scroll</AppearTitle>
@@ -357,7 +366,10 @@ export default function Home() {
             </Parallax>
           </div>
         </div>
-        <div className={s.cards} ref={cardsRectRef}>
+        <div
+          className={s.cards}
+          ref={cardsRectRef}
+        >
           <HorizontalSlides>
             <Card
               className={s.card}
@@ -407,7 +419,10 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className={cn('theme-light', s.featuring)} ref={whiteRectRef}>
+      <section
+        className={cn('theme-light', s.featuring)}
+        ref={whiteRectRef}
+      >
         <div className={s.inner}>
           <div className={cn('layout-block', s.intro)}>
             <p className="p-l">
